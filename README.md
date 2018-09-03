@@ -1,6 +1,6 @@
 # learning-compression
 ## overview
-There are 2 seperate iPython notebooks in this repository corresponding to the 2 datasets : mnist.ipynb , svhn.ipynb
+There are 2 separate iPython notebooks in this repository corresponding to the 2 datasets : mnist.ipynb , svhn.ipynb
 Initially we experiment with 30 epochs, but accuracy curve flattens much earlier at around 10 epochs. We train till 15 epochs
 ## neural network architecture
 2 hidden layer, feed forward fully connected multi layered perceptron.
