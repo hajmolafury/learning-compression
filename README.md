@@ -14,7 +14,7 @@ optimizer function : Adam, SGD
 ## dataset download
 mnist : http://yann.lecun.com/exdb/mnist/
 
-svhn : http://ufldl.stanford.edu/housenumbers/   (format2 : cropped digits is used by us) ((.mat) files)
+svhn : http://ufldl.stanford.edu/housenumbers/   (We have used : format2, cropped digits)
 
 ## Hyperparameters
 Learning rate:
