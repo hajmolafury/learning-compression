@@ -5,7 +5,7 @@ Initially, we trained the MLP for 30 epochs, but we observe that the accuracy cu
 
 We train for 15 epochs :v:
 
-Graph plotting : Plotly (Python, interactive graphs)
+Graph plotting : plotly library (interactive graphs)
 
 ## neural network architecture
 2 hidden layers, feed forward, fully-connected, multi layered perceptron.
