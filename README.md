@@ -22,3 +22,10 @@ In our code, we import the mnist dataset from tensorflow.examples.tutorials.mnis
 
 svhn : http://ufldl.stanford.edu/housenumbers/   (We have used : format2, cropped digits)
 
+## mnist_update.ipynb
+Updates:
+* Addition of Dropout regularization
+* Multiple graph plots (loss, validation, training & testing accuracies)
+* Hyperparameter tuning for increased accuracies (Error: 2.5%)
+* Optimizers : Adam, SGD, RMSProp
+* Trained on GPU from colab.research.google
