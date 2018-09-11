@@ -1,8 +1,11 @@
 # learning-compression
 ## overview
 There are 2 separate iPython notebooks in this repository corresponding to the 2 datasets : mnist & svhn
+
 MLP trained for 20 epochs
+
 Graph plotting : plotly library (interactive graphs)
+
 TO SEE GRAPHS PLEASE VIEW IN COLAB (link present on top of mnist_update.ipynb)
 
 ## neural network architecture
