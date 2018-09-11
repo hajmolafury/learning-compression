@@ -1,11 +1,9 @@
 # learning-compression
 ## overview
 There are 2 separate iPython notebooks in this repository corresponding to the 2 datasets : mnist & svhn
-Initially, we trained the MLP for 30 epochs, but we observe that the accuracy curve flattens much earlier (5-7 epochs). 
-
-We train for 15 epochs :v:
-
+MLP trained for 20 epochs
 Graph plotting : plotly library (interactive graphs)
+TO SEE GRAPHS PLEASE VIEW IN COLAB (link present on top of mnist_update.ipynb)
 
 ## neural network architecture
 2 hidden layers, feed forward, fully-connected, multi layered perceptron.
@@ -13,7 +11,7 @@ Graph plotting : plotly library (interactive graphs)
 - hlayer_2 : 1000 nodes
 
 * activation function : ReLU
-* optimizer function : Adam, SGD
+* optimizer function : Adam, RMSProp, SGD
 
 ## dataset download
 mnist : http://yann.lecun.com/exdb/mnist/
@@ -21,7 +19,3 @@ In our code, we import the mnist dataset from tensorflow.examples.tutorials.mnis
 
 svhn : http://ufldl.stanford.edu/housenumbers/   (We have used : format2, cropped digits)
 
-## Hyperparameters
-Learning rate:
-- Adam : 0.0001 
-- SGD  : 0.001
